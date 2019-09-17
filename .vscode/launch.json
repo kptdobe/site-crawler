@@ -8,7 +8,11 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/index.js"
+            "program": "${workspaceFolder}/index.js",
+            "args": [
+                "--nbVisits", "1",
+                "--root", "https://adobedevsite.helix-demo.xyz"
+            ]
         }
     ]
 }
